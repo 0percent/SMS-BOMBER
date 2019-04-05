@@ -12,3 +12,7 @@ type these commands one by one
 4-  ./bom.sh
 then you you to have to enter mobile number
 you are done.
+
+
+RITESH SINGH
+IIIT RANCHI
