@@ -13,6 +13,5 @@ type these commands one by one
 then you you to have to enter mobile number
 you are done.
 
-
-RITESH SINGH,
-IIIT RANCHI
+0percent
+master
