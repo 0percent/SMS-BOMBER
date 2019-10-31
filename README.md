@@ -17,6 +17,13 @@ Open linux terminal as root
 
 Then you you to have to enter mobile number and number of SMS to send.
 
+For python users :
+1. Install python
+
+2.Go to directory where bom2.py is present
+
+3.Run the python command : python bom2.py
+
 You are done.
 
 0percent
