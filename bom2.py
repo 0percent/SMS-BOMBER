@@ -1,4 +1,18 @@
 import os
+
+def banner():
+    cprint("""                                                  
+   ████████ ██████                 ██             
+   ▒▒▒██▒▒▒ ██▒▒▒██                ██             
+      ██    ██   ██  ████  ██   ██ ██             
+      ██    ██████▒ ██▒▒██ ███ ███ █████          
+      ██    ██▒▒▒██ ██  ██ ██▒█▒██ ██▒▒██         
+      ██    ██   ██ ██  ██ ██ ▒ ██ ██  ██         
+      ██    ██████▒ ▒████▒ ██   ██ █████▒         
+      ▒▒    ▒▒▒▒▒▒   ▒▒▒▒  ▒▒   ▒▒ ▒▒▒▒▒          
+                                         """, 'green')
+banner()
+
 result = os.popen("curl http://thespartanpoker.com/smsc?PHONE=$phonen").read()
 print result
 result = os.popen("curl http://chipbazar.com/SendOTP.asp?For=Phone&PhoneNo=$phonen").read()
