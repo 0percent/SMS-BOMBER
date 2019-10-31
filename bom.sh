@@ -1,4 +1,5 @@
 #!/bin/bash
+apt-get install figlet
 banner()
 {
   echo "+------------------------------------------+"
@@ -7,6 +8,7 @@ banner()
   printf "|`tput bold` %-40s `tput sgr0`|\n" "$@"
   echo "+------------------------------------------+"
 }
+figlet 0percent
 banner "Starting the Bomber for you..."
 echo Please enter the mobile number..
 read phonen
